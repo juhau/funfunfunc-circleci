@@ -4,7 +4,7 @@ import { shallow } from 'enzyme'
 
 describe('(Layout) PageLayout', () => {
   it('renders as a <div>', () => {
-    shallow(<PageLayout />).should.have.tagName('div')
+    shallow(<PageLayout />).should.have.tagName('p')
   })
 
   it('renders a project title', () => {
